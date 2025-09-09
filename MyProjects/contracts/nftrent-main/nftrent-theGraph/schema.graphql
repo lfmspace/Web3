@@ -1,0 +1,9 @@
+type NftInfo @entity(immutable: true) {
+  id: Bytes!
+  owner: Bytes! # address
+  ca: Bytes! # address
+  tokenId: BigInt! # uint256
+  tokenURL: String
+  blockTimestamp: BigInt!
+  name: String
+}

@@ -1,0 +1,7 @@
+{
+  "remappings": ["@openzeppelin/=/tmp/lib/openzeppelin-contracts/", "./=/tmp/src/NFTRent/"],
+  "optimizer": {
+    "enabled": true,
+    "runs": 200
+  }
+}

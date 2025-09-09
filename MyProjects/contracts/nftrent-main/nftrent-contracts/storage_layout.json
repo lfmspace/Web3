@@ -1,0 +1,110 @@
+{
+    "_name": {
+        "name": "_name",
+        "type_string": "string",
+        "slot": 0,
+        "size": 256,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    },
+    "_symbol": {
+        "name": "_symbol",
+        "type_string": "string",
+        "slot": 1,
+        "size": 256,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    },
+    "_owners": {
+        "name": "_owners",
+        "type_string": "mapping(uint256 => address)",
+        "slot": 2,
+        "size": 256,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    },
+    "_balances": {
+        "name": "_balances",
+        "type_string": "mapping(address => uint256)",
+        "slot": 3,
+        "size": 256,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    },
+    "_tokenApprovals": {
+        "name": "_tokenApprovals",
+        "type_string": "mapping(uint256 => address)",
+        "slot": 4,
+        "size": 256,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    },
+    "_operatorApprovals": {
+        "name": "_operatorApprovals",
+        "type_string": "mapping(address => mapping(address => bool))",
+        "slot": 5,
+        "size": 256,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    },
+    "_tokenURIs": {
+        "name": "_tokenURIs",
+        "type_string": "mapping(uint256 => string)",
+        "slot": 6,
+        "size": 256,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    },
+    "_nameFallback": {
+        "name": "_nameFallback",
+        "type_string": "string",
+        "slot": 7,
+        "size": 256,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    },
+    "_versionFallback": {
+        "name": "_versionFallback",
+        "type_string": "string",
+        "slot": 8,
+        "size": 256,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    },
+    "_nonces": {
+        "name": "_nonces",
+        "type_string": "mapping(address => mapping(uint192 => uint64))",
+        "slot": 10,
+        "size": 256,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    },
+    "_owner": {
+        "name": "_owner",
+        "type_string": "address",
+        "slot": 11,
+        "size": 160,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    },
+    "tokenIdCounter": {
+        "name": "tokenIdCounter",
+        "type_string": "uint256",
+        "slot": 12,
+        "size": 256,
+        "offset": 0,
+        "value": null,
+        "elems": {}
+    }
+}

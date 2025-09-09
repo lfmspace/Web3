@@ -1,0 +1,51 @@
+specVersion: 1.3.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: NFTFactory
+    network: sepolia
+    source:
+      address: "0xF69E21a75Cd94b8204BC4651aaEeE5bb29C8c517"
+      abi: NFTFactory
+      startBlock: 8596914
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.9
+      language: wasm/assemblyscript
+      entities:
+        - NFTCreated
+        - NFTRegesitered
+        - OwnershipTransferred
+      abis:
+        - name: NFTFactory
+          file: ./abis/NFTFactory.json
+      eventHandlers:
+        - event: NFTCreated(address)
+          handler: handleNFTCreated
+        - event: NFTRegesitered(address)
+          handler: handleNFTRegesitered
+        - event: OwnershipTransferred(indexed address,indexed address)
+          handler: handleOwnershipTransferred
+      file: ./src/nft-factory.ts
+templates:
+  - kind: ethereum
+    name: S2NFT
+    network: sepolia
+    source:
+      abi: S2NFT
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.9
+      language: wasm/assemblyscript
+      entities:
+        - S2NFT
+      abis:
+        - name: S2NFT
+          file: ./abis/S2NFT.json
+      eventHandlers:
+        - event: Transfer(indexed address,indexed address,indexed uint256)
+          handler: handleTransfer
+      file: ./src/s2-nft.ts

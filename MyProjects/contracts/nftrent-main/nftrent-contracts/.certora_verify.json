@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "RTNFT",
+    "specfile": "D:/AWorkSpace/lei/soliditySpace/soliditySpace/nftrent-study-main/nftrent-contracts/certora/NFTRent.spec",
+    "specfileOrigRelpath": "certora/NFTRent.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

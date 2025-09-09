@@ -1,0 +1,8 @@
+{
+  "sepolia": {
+    "LFMNFT": {
+      "address": "0xaf834cdeEc821319Fa296ee74dfbcAe2deBD40D3",
+      "startBlock": 8635199
+    }
+  }
+}

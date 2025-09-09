@@ -1,0 +1,646 @@
+{
+    "reference_bytes8_array": {
+        "name": "reference_bytes8_array",
+        "type_string": "bytes8[]",
+        "slot": 0,
+        "size": 256,
+        "offset": 0,
+        "value": "0000000000000000000000000000000000000000000000000000000000000041",
+        "elems": {
+            "0": {
+                "name": "reference_bytes8_array[0]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702947,
+                "size": 64,
+                "offset": 0,
+                "value": "000000000000000c",
+                "elems": {}
+            },
+            "1": {
+                "name": "reference_bytes8_array[1]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702948,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "2": {
+                "name": "reference_bytes8_array[2]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702949,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "3": {
+                "name": "reference_bytes8_array[3]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702950,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "4": {
+                "name": "reference_bytes8_array[4]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702951,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "5": {
+                "name": "reference_bytes8_array[5]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702952,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "6": {
+                "name": "reference_bytes8_array[6]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702953,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "7": {
+                "name": "reference_bytes8_array[7]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702954,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "8": {
+                "name": "reference_bytes8_array[8]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702955,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "9": {
+                "name": "reference_bytes8_array[9]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702956,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "10": {
+                "name": "reference_bytes8_array[10]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702957,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "11": {
+                "name": "reference_bytes8_array[11]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702958,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "12": {
+                "name": "reference_bytes8_array[12]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702959,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "13": {
+                "name": "reference_bytes8_array[13]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702960,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "14": {
+                "name": "reference_bytes8_array[14]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702961,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "15": {
+                "name": "reference_bytes8_array[15]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702962,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "16": {
+                "name": "reference_bytes8_array[16]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702963,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "17": {
+                "name": "reference_bytes8_array[17]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702964,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "18": {
+                "name": "reference_bytes8_array[18]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702965,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            },
+            "19": {
+                "name": "reference_bytes8_array[19]",
+                "type_string": "bytes8",
+                "slot": 18569430475105882587588266137607568536673111973893317399460219858819262702966,
+                "size": 64,
+                "offset": 0,
+                "value": "0000000000000000",
+                "elems": {}
+            }
+        }
+    },
+    "reference_uint256_array": {
+        "name": "reference_uint256_array",
+        "type_string": "uint256[]",
+        "slot": 1,
+        "size": 256,
+        "offset": 0,
+        "value": 22252025330403739761828245677963637534394730518394656295407855340901589349694,
+        "elems": {
+            "0": {
+                "name": "reference_uint256_array[0]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944778998,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "1": {
+                "name": "reference_uint256_array[1]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944778999,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "2": {
+                "name": "reference_uint256_array[2]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779000,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "3": {
+                "name": "reference_uint256_array[3]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779001,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "4": {
+                "name": "reference_uint256_array[4]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779002,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "5": {
+                "name": "reference_uint256_array[5]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779003,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "6": {
+                "name": "reference_uint256_array[6]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779004,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "7": {
+                "name": "reference_uint256_array[7]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779005,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "8": {
+                "name": "reference_uint256_array[8]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779006,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "9": {
+                "name": "reference_uint256_array[9]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779007,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "10": {
+                "name": "reference_uint256_array[10]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779008,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "11": {
+                "name": "reference_uint256_array[11]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779009,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "12": {
+                "name": "reference_uint256_array[12]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779010,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "13": {
+                "name": "reference_uint256_array[13]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779011,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "14": {
+                "name": "reference_uint256_array[14]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779012,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "15": {
+                "name": "reference_uint256_array[15]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779013,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "16": {
+                "name": "reference_uint256_array[16]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779014,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "17": {
+                "name": "reference_uint256_array[17]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779015,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "18": {
+                "name": "reference_uint256_array[18]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779016,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "19": {
+                "name": "reference_uint256_array[19]",
+                "type_string": "uint256",
+                "slot": 80084422859880547211683076133703299733277748156566366325829078699459944779017,
+                "size": 256,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            }
+        }
+    },
+    "reference_uint8_array": {
+        "name": "reference_uint8_array",
+        "type_string": "uint8[]",
+        "slot": 2,
+        "size": 256,
+        "offset": 0,
+        "value": 145,
+        "elems": {
+            "0": {
+                "name": "reference_uint8_array[0]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403022,
+                "size": 8,
+                "offset": 0,
+                "value": 118,
+                "elems": {}
+            },
+            "1": {
+                "name": "reference_uint8_array[1]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403023,
+                "size": 8,
+                "offset": 0,
+                "value": 114,
+                "elems": {}
+            },
+            "2": {
+                "name": "reference_uint8_array[2]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403024,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "3": {
+                "name": "reference_uint8_array[3]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403025,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "4": {
+                "name": "reference_uint8_array[4]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403026,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "5": {
+                "name": "reference_uint8_array[5]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403027,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "6": {
+                "name": "reference_uint8_array[6]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403028,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "7": {
+                "name": "reference_uint8_array[7]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403029,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "8": {
+                "name": "reference_uint8_array[8]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403030,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "9": {
+                "name": "reference_uint8_array[9]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403031,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "10": {
+                "name": "reference_uint8_array[10]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403032,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "11": {
+                "name": "reference_uint8_array[11]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403033,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "12": {
+                "name": "reference_uint8_array[12]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403034,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "13": {
+                "name": "reference_uint8_array[13]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403035,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "14": {
+                "name": "reference_uint8_array[14]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403036,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "15": {
+                "name": "reference_uint8_array[15]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403037,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "16": {
+                "name": "reference_uint8_array[16]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403038,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "17": {
+                "name": "reference_uint8_array[17]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403039,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "18": {
+                "name": "reference_uint8_array[18]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403040,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            },
+            "19": {
+                "name": "reference_uint8_array[19]",
+                "type_string": "uint8",
+                "slot": 29102676481673041902632991033461445430619272659676223336789171408008386403041,
+                "size": 8,
+                "offset": 0,
+                "value": 0,
+                "elems": {}
+            }
+        }
+    },
+    "reference_address_array": {
+        "name": "reference_address_array",
+        "type_string": "address[]",
+        "slot": 3,
+        "size": 256,
+        "offset": 0,
+        "value": 2,
+        "elems": {
+            "0": {
+                "name": "reference_address_array[0]",
+                "type_string": "address",
+                "slot": 87903029871075914254377627908054574944891091886930582284385770809450030037083,
+                "size": 160,
+                "offset": 0,
+                "value": "0x0000000000000000000000000000000000000008",
+                "elems": {}
+            },
+            "1": {
+                "name": "reference_address_array[1]",
+                "type_string": "address",
+                "slot": 87903029871075914254377627908054574944891091886930582284385770809450030037084,
+                "size": 160,
+                "offset": 0,
+                "value": "0x000000000000000000000000000000000000000A",
+                "elems": {}
+            }
+        }
+    },
+    "reference_bool_array": {
+        "name": "reference_bool_array",
+        "type_string": "bool[]",
+        "slot": 4,
+        "size": 256,
+        "offset": 0,
+        "value": true,
+        "elems": {
+            "0": {
+                "name": "reference_bool_array[0]",
+                "type_string": "bool",
+                "slot": 62514009886607029107290561805838585334079798074568712924583230797734656856475,
+                "size": 8,
+                "offset": 0,
+                "value": true,
+                "elems": {}
+            },
+            "1": {
+                "name": "reference_bool_array[1]",
+                "type_string": "bool",
+                "slot": 62514009886607029107290561805838585334079798074568712924583230797734656856476,
+                "size": 8,
+                "offset": 0,
+                "value": true,
+                "elems": {}
+            },
+            "2": {
+                "name": "reference_bool_array[2]",
+                "type_string": "bool",
+                "slot": 62514009886607029107290561805838585334079798074568712924583230797734656856477,
+                "size": 8,
+                "offset": 0,
+                "value": true,
+                "elems": {}
+            }
+        }
+    },
+    "reference_struct_array": {
+        "name": "reference_struct_array",
+        "type_string": "mapping(uint256 => StorageDemo.Object)",
+        "slot": 5,
+        "size": 256,
+        "offset": 0,
+        "value": 4,
+        "elems": {}
+    }
+}
