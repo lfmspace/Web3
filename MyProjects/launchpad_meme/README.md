@@ -1,66 +1,51 @@
-## Foundry
+# 发射台项目：基于指数Bonding Curve的流动性启动平台
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## 项目概述
+本项目创新性地实现了结合指数Bonding Curve机制的代币发射台，通过智能合约自动化管理代币发行、募集和流动性添加全过程。项目核心目标是确保从募集阶段到Uniswap流动性池建立的平滑过渡，保持价格连续性。
 
-Foundry consists of:
+## 核心功能特性
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+### 🎯 智能募集机制
+- **目标募集额**: 50 ETH硬顶目标
+- **动态定价**: 采用指数型Bonding Curve算法，价格随代币销售进度平滑上涨
+- **双向交易**: 募集期间支持投资者随时买卖代币，提供灵活退出机制
 
-## Documentation
+### 🔄 自动化流动性迁移
+- **无缝衔接**: 当募集达到50 ETH目标时，系统自动将全部资金注入Uniswap V2/V3流动性池
+- **价格一致性**: 精心设计的算法确保添加流动性时，Bonding Curve终点价格与Uniswap初始价格完美匹配
+- **流动性锁定**: 流动性添加后自动锁定，确保项目长期稳定性
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
+### 📊 技术架构亮点
 ```
-
-### Test
-
-```shell
-$ forge test
+募集阶段 (Bonding Curve模式) → 流动性阈值触发 → 交易池阶段 (Uniswap模式)
 ```
+- **指数Bonding Curve合约**: 实现公平的价格发现机制
+- **状态切换逻辑**: 智能合约自动管理从募集到流动性池的转换
+- **交易权限控制**: 募集期间开放买卖，流动性添加后关闭合约内交易功能
 
-### Format
+## 工作流程
 
-```shell
-$ forge fmt
-```
+1. **启动阶段**
+   - 项目方部署Bonding Curve合约并设置参数
+   - 设定50 ETH募集目标和指数曲线参数
 
-### Gas Snapshots
+2. **募集阶段**
+   - 投资者通过Bonding Curve买卖代币
+   - 价格沿指数曲线自动调整，确保市场驱动定价
 
-```shell
-$ forge snapshot
-```
+3. **流动性转换**
+   - 募集额达到50 ETH时自动触发
+   - 全部ETH和对应代币转入Uniswap创建交易对
+   - Bonding Curve交易功能自动禁用
 
-### Anvil
+4. **公开交易阶段**
+   - 代币在Uniswap上自由交易
+   - 价格由市场供需决定，继承Bonding Curve终点价格
 
-```shell
-$ anvil
-```
+## 创新价值
+- **价格连续性**: 消除传统IDO与上市交易之间的价格断层
+- **资本效率**: 全部募集资金直接转化为流动性，无资金闲置
+- **用户保护**: 募集期间提供灵活的买入/卖出选择，降低风险
+- **自动化执行**: 完全去中心化操作，消除人为干预风险
 
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+本项目为代币发行提供了更加平滑、公平和高效的启动方案，特别适合寻求社区驱动和价格发现透明化的区块链项目。
