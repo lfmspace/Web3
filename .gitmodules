@@ -1,0 +1,9 @@
+[submodule "MyProjects/launchpad_meme/dependencies/v2-core"]
+	path = MyProjects/launchpad_meme/dependencies/v2-core
+	url = https://github.com/uniswap/v2-core
+[submodule "MyProjects/launchpad_meme/dependencies/v2-periphery"]
+	path = MyProjects/launchpad_meme/dependencies/v2-periphery
+	url = https://github.com/uniswap/v2-periphery
+[submodule "MyProjects/launchpad_meme/dependencies/solady"]
+	path = MyProjects/launchpad_meme/dependencies/solady
+	url = https://github.com/vectorized/solady
